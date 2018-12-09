@@ -97,8 +97,7 @@ PLOTS
 R code for plots. This code includes the code for the 9 plots. The plots for each question have the same scale, except for 3 additional plots
 (for a total of 12 plots) in the >100kb section.  Since there are only 7 sequences over 100kb, the scale of the extra 3 plots was reduced.
 
-```R
-
+```
 #install.packages("ggplot2")
 library(ggplot2)
 #if(!require(devtools)) install.packages("devtools")
@@ -188,7 +187,7 @@ g <- ggplot(data=log_over, aes(log_over$V2)) + geom_histogram(
 
 print(g)
 ```
-
+```
 ##sort in decending order
 data_over_l <- dmel_over_l[order(-dmel_l$V2),]
 #Cumulative genome size 
@@ -250,7 +249,7 @@ m <- ggarrange(a, b, c, d, e, f, g, h, i, k, l,
 ggexport(m)
 
 ```
-
+```
 Plots in PDF format
 --------------------
 
