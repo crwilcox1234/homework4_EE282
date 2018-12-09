@@ -1,0 +1,51 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /data/users/crwilcox/bin/augustus-3.2.1/config/ ...
+# Using protein profile unknown
+# --[0..18]--> unknown_A (94) <--[2..29]--> unknown_B (31) <--[11..38]--> unknown_C (36) <--[7..18]--> unknown_D (17) <--[0..3]--> unknown_E (9) <--[0..113]--> unknown_F (9) <--[0..13]--> unknown_G (104) <--[18..61]--> unknown_J (26) <--[0..2]--
+# BUSCO_unitigs_diptera_odb9_3925818918 version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(1), CTG(0), TTG(0)
+# Looks like ./tmp/utg000026lunitigs_diptera_odb9_3925818918_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 11684, name = utg000026l) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+utg000026l	AUGUSTUS	gene	7424286	7425985	0.2	+	.	g1
+utg000026l	AUGUSTUS	transcript	7424286	7425985	0.2	+	.	g1.t1
+utg000026l	AUGUSTUS	start_codon	7424286	7424288	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000026l	AUGUSTUS	intron	7424644	7424897	0.34	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000026l	AUGUSTUS	intron	7425162	7425237	0.53	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000026l	AUGUSTUS	intron	7425617	7425810	0.73	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000026l	AUGUSTUS	CDS	7424286	7424643	0.91	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000026l	AUGUSTUS	CDS	7424898	7425161	0.32	+	2	transcript_id "g1.t1"; gene_id "g1";
+utg000026l	AUGUSTUS	CDS	7425238	7425616	0.53	+	2	transcript_id "g1.t1"; gene_id "g1";
+utg000026l	AUGUSTUS	CDS	7425811	7425985	0.57	+	1	transcript_id "g1.t1"; gene_id "g1";
+utg000026l	AUGUSTUS	stop_codon	7425983	7425985	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [atgattgacgcggtttccgccgagcgggcaagccccccagtttcattgcccttcaatgacaacggaaattggccacgag
+# ggacgacgcaggcctaccggtacacggaaaggacacccaccagcacgtacccgccgacctggaggcgacctatggaacctgtacgccgcctgccagga
+# tcacgccgcctttgcccgggaccaccgggaattcggccagcgcctgcatgccgcccacattgcctggcaggacttcattgtcttggccaaccgactgg
+# tccagcagatcgcgatgccttcgcccacgagtatgattttacgagagcagacgccgggcaatggatacaggagcttcatctactattgcttttacgga
+# cgctgcctgggctttcagtatggcgactcgatacgcgggagtttcctctcgattctcggcatcagcatggccagctacttcggagtcgtactattcgc
+# gtgagggcgacgccccatcgtgctaagactcacacgcagcctgtggaccagcggcaagtatctatgaatccggaactgcgcgcccgtcgcatcgttaa
+# catctcgcagaatgctaagatagacttttgcaaatcctttggtttctggccgaccgagccgctaaagctgcctcgccgaaagaatctcatgcatcgga
+# caattcccagtgaaaatgttaaccaaaccaaggcgatggtgattttgtggagattcccgtgcccacggtacattgggacctggtttactggtctctgt
+# tcgcttgctgagcgcgagacgacgttcgggacgttgggcgagggtcgttgtcgcggctggcggcaagcccattccgccaagccttcgattctgtttca
+# ctgccatggcggcggctttgtggcccaatcgtccgttcccacgaactgtatttgcgcggattgggccgtggcaccaaccgtcctattctccccggtgg
+# attacagctcagctcctgaggcgccatttccacgcgccccctttgtgcccagtccggcctgccttctgtttgatggatcccgctgcctttcggctttc
+# gatgatgcgccgctcgcgcctgccgccccgcccataggagacaccccagcagaatgctgccaagtcgagatgccgcccagatacgcaatgaaccctca
+# agtcgaacgggaagtttga]
+# protein sequence = [MIDAVSAERASPPVSLPFNDNGNWPRGTTQAYRYTERTPTSTYPPTWRRPMEPVRRLPGSRRLCPGPPGIRPAPACRP
+# HCLAGLHCLGQPTGPADRDAFAHEYDFTRADAGQWIQELHLLLLLRTLPGLSVWRLDTREFPLDSRHQHGQLLRSRTIRVRATPHRAKTHTQPVDQRQ
+# VSMNPELRARRIVNISQNAKIDFCKSFGFWPTEPLKLPRRKNLMHRTIPSENVNQTKAMVILWRFPCPRYIGTWFTGLCSLAERETTFGTLGEGRCRG
+# WRQAHSAKPSILFHCHGGGFVAQSSVPTNCICADWAVAPTVLFSPVDYSSAPEAPFPRAPFVPSPACLLFDGSRCLSAFDDAPLAPAAPPIGDTPAEC
+# CQVEMPPRYAMNPQVEREV]
+# end gene g1
+###
+# command line:
+# augustus --codingseq=1 --proteinprofile=/pub/jje/ee282/bin/busco/lineages/diptera_odb9/prfl/EOG091506CI.prfl --predictionStart=7416540 --predictionEnd=7428223 --species=BUSCO_unitigs_diptera_odb9_3925818918 ./tmp/utg000026lunitigs_diptera_odb9_3925818918_.temp

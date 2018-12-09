@@ -1,0 +1,54 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /data/users/crwilcox/bin/augustus-3.2.1/config/ ...
+# Using protein profile unknown
+# --[16..40]--> unknown_B (74) <--[0..2]--> unknown_C (44) <--[0..9]--
+# fly version. Using default transition matrix.
+# Looks like ./tmp/utg000035lunitigs_diptera_odb9_3925818918_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 10259, name = utg000035l) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+utg000035l	AUGUSTUS	gene	616164	626047	0.01	+	.	g1
+utg000035l	AUGUSTUS	transcript	616164	626047	0.01	+	.	g1.t1
+utg000035l	AUGUSTUS	start_codon	616164	616166	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	intron	616192	621051	0.01	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	intron	621266	621326	0.01	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	intron	621438	623608	0.01	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	intron	623644	625056	0.01	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	CDS	616164	616191	0.03	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	exon	616164	616191	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	CDS	621052	621265	0.01	+	2	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	exon	621052	621265	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	CDS	621327	621437	0.01	+	1	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	exon	621327	621437	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	CDS	623609	623643	0.01	+	1	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	exon	623609	623643	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	CDS	625057	625094	0.01	+	2	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	exon	625057	626047	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	stop_codon	625092	625094	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	tts	626047	626047	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	protein_match	621084	621265	2.16	+	0	target "unknown_B[1..61]"; target_start 20; transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	protein_match	621327	621366	9.55	+	1	target "unknown_B[61..74]"; target_start 20; transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	protein_match	621367	621437	1.58	+	0	target "unknown_C[1..24]"; target_start 94; transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	protein_match	623609	623643	1.95	+	0	target "unknown_C[25..36]"; target_start 93; transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	protein_match	625057	625082	1.07	+	2	target "unknown_C[36..44]"; target_start 94; transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [atgtttgttcgactaagttactgcagttgttcaatagtgtttcaaagctcgcgttttatctggccttgcgggcttgaat
+# attcctctgcacttccttttcaaaacattttaataactcttcagattttccggaatgtgcttgtttcaactcgatgtgctactgttgagcctggaaag
+# tcgtgggaccttactccattctgcggtcgatctacttgtgttcaaaatgaggaaaatgatgcaaagctattcgaactcgtagaagactgcggcccatt
+# gccactggcgaatgacaaatgtaaattgacacagagaagactaataaaactgcatcgtttttattaccccatctttacatttgcttgttgtatttctg
+# ttaagtgttcatactccaatttaagaaaacgtaaaacaaaaagtatgaaataa]
+# protein sequence = [MFVRLSYCSCSIVFQSSRFIWPCGLEYSSALPFQNILITLQIFRNVLVSTRCATVEPGKSWDLTPFCGRSTCVQNEEN
+# DAKLFELVEDCGPLPLANDKCKLTQRRLIKLHRFYYPIFTFACCISVKCSYSNLRKRKTKSMK]
+# sequence of block unknown_B    20 [WPCGLEYSSALPFQNILITLQIFRNVLVSTRCATVEPGKSWDLTPFCGRSTCVQNEENDAKLFELVEDCGPLPL] 94
+# sequence of block unknown_C    94 [ANDKCKLTQRRLIKLHRFYYPIFTFACCISVKCSYSNLRKRKTK] 138
+# end gene g1
+###
+# command line:
+# augustus --codingseq=1 --proteinprofile=/pub/jje/ee282/bin/busco/lineages/diptera_odb9/prfl/EOG09150D8G.prfl --predictionStart=616162 --predictionEnd=626420 --species=fly ./tmp/utg000035lunitigs_diptera_odb9_3925818918_.temp

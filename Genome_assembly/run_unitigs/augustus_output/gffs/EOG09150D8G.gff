@@ -1,0 +1,24 @@
+utg000035l	AUGUSTUS	gene	616164	626047	0.01	+	.	g1
+utg000035l	AUGUSTUS	transcript	616164	626047	0.01	+	.	g1.t1
+utg000035l	AUGUSTUS	start_codon	616164	616166	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	intron	616192	621051	0.01	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	intron	621266	621326	0.01	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	intron	621438	623608	0.01	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	intron	623644	625056	0.01	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	CDS	616164	616191	0.03	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	exon	616164	616191	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	CDS	621052	621265	0.01	+	2	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	exon	621052	621265	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	CDS	621327	621437	0.01	+	1	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	exon	621327	621437	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	CDS	623609	623643	0.01	+	1	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	exon	623609	623643	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	CDS	625057	625094	0.01	+	2	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	exon	625057	626047	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	stop_codon	625092	625094	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	tts	626047	626047	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	protein_match	621084	621265	2.16	+	0	target "unknown_B[1..61]"; target_start 20; transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	protein_match	621327	621366	9.55	+	1	target "unknown_B[61..74]"; target_start 20; transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	protein_match	621367	621437	1.58	+	0	target "unknown_C[1..24]"; target_start 94; transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	protein_match	623609	623643	1.95	+	0	target "unknown_C[25..36]"; target_start 93; transcript_id "g1.t1"; gene_id "g1";
+utg000035l	AUGUSTUS	protein_match	625057	625082	1.07	+	2	target "unknown_C[36..44]"; target_start 94; transcript_id "g1.t1"; gene_id "g1";

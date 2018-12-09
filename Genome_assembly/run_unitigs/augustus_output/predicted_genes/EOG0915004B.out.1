@@ -1,0 +1,77 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /data/users/crwilcox/bin/augustus-3.2.1/config/ ...
+# Using protein profile unknown
+# --[0..366]--> unknown_A (259) <--[6..16]--> unknown_B (24) <--[0..1]--> unknown_C (207) <--[0..2]--> unknown_D (249) <--[0..12]--> unknown_E (22) <--[1..34]--> unknown_F (166) <--[0..1]--> unknown_G (182) <--[1..3]--> unknown_H (64) <--[0..48]--> unknown_I (67) <--[2..6]--> unknown_J (168) <--[7..27]--> unknown_K (91) <--[3..37]--> unknown_L (115) <--[1..46]--> unknown_M (44) <--[9..17]--> unknown_N (68) <--[0..1]--> unknown_O (20) <--[0..1]--> unknown_P (26) <--[0..3]--> unknown_Q (22) <--[0..1]--> unknown_R (23) <--[0..1]--> unknown_S (74) <--[1..131]--
+# BUSCO_unitigs_diptera_odb9_3925818918 version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(1), CTG(0), TTG(0)
+# Looks like ./tmp/utg000002lunitigs_diptera_odb9_3925818918_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 18001, name = utg000002l) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+utg000002l	AUGUSTUS	gene	1633147	1634350	0.03	+	.	g1
+utg000002l	AUGUSTUS	transcript	1633147	1634350	0.03	+	.	g1.t1
+utg000002l	AUGUSTUS	intron	1633147	1633690	0.61	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	intron	1633739	1633859	0.16	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	intron	1634021	1634104	0.26	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	CDS	1633691	1633738	0.17	+	2	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	CDS	1633860	1634020	0.72	+	2	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	CDS	1634105	1634350	0.19	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	stop_codon	1634348	1634350	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [tgaacatggaaattggacgctgtcgagcgtcgcttggtctccgccagcctgtgttcagcagaacccgagctagtatgtt
+# cagatcgttgatggtcttcagctcgatattgtcgaaaggtgtgagttcatgtactcaaagtctgcgtagtttagagctgttacgttgtgcagcgttcg
+# gtggactgaccactggaggaagctcaggaatggtggtggctgccgttgctgttcctcgtccctctgctcgggctcgttcttctttcgctccttcgtcc
+# ctatccgatgacaagtcgtccgcaccaggagtaatcaactgctcccaagcatctccttctgttcccgcctccagcgcccgttggcgttcctcccagac
+# gctcctggcgactggtcacctcgcgctgctggcgacgcaggtggcgccatcgttgcgcctgatcagcacggcccccagctga]
+# protein sequence = [NMEIGRCRASLGLRQPVFSRTRASMFRSLMVFSSILSKGVSSCTQSLRSLELLRCAAFGGLTTGGSSGMVVAAVAVPR
+# PSARARSSFAPSSLSDDKSSAPGVINCSQASPSVPASSARWRSSQTLLATGHLALLATQVAPSLRLISTAPS]
+# end gene g1
+###
+# start gene g2
+utg000002l	AUGUSTUS	gene	1639588	1640463	0.11	+	.	g2
+utg000002l	AUGUSTUS	transcript	1639588	1640463	0.11	+	.	g2.t1
+utg000002l	AUGUSTUS	start_codon	1639588	1639590	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+utg000002l	AUGUSTUS	intron	1639672	1640031	0.3	+	.	transcript_id "g2.t1"; gene_id "g2";
+utg000002l	AUGUSTUS	CDS	1639588	1639671	0.14	+	0	transcript_id "g2.t1"; gene_id "g2";
+utg000002l	AUGUSTUS	CDS	1640032	1640463	0.42	+	0	transcript_id "g2.t1"; gene_id "g2";
+utg000002l	AUGUSTUS	stop_codon	1640461	1640463	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# coding sequence = [atgctctccagggtgaccgaacgaagttcgtttcagggcactcgctggacctccgcatacaacgattcgattatcctag
+# tgcaacacggagtttgccaagatagtaccatctatgccgacttgttggcgatttcaacgatactggttgtcatatgcaggacggtgggcggtgacggt
+# aaggggcacctttgggagtacacaaaatccatcaactgttcgacgcactgcagtccgctggatactagcaggtcgtttttaccgccgagcaccgagaa
+# gacgacgagccagtggccattttggcatagggcaaagtccagctgtaagccggagccaccagctcccgctgccccgtggattcatcagtattatggaa
+# caaataggcaaagacaaacccagaatggcgtagagacatgcgagcttcctggccgtattagaatcatcttctccatgctcgtttcacctttccgtcct
+# cagaattggtattatcgtcccgttttcttttcaagtcttccctag]
+# protein sequence = [MLSRVTERSSFQGTRWTSAYNDSIILVQHGVCQDSTIYADLLAISTILVVICRTVGGDGKGHLWEYTKSINCSTHCSP
+# LDTSRSFLPPSTEKTTSQWPFWHRAKSSCKPEPPAPAAPWIHQYYGTNRQRQTQNGVETCELPGRIRIIFSMLVSPFRPQNWYYRPVFFSSLP]
+# end gene g2
+###
+# start gene g3
+utg000002l	AUGUSTUS	gene	1645944	1651147	0.06	-	.	g3
+utg000002l	AUGUSTUS	transcript	1645944	1651147	0.06	-	.	g3.t1
+utg000002l	AUGUSTUS	stop_codon	1645944	1645946	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+utg000002l	AUGUSTUS	intron	1646307	1649770	0.57	-	.	transcript_id "g3.t1"; gene_id "g3";
+utg000002l	AUGUSTUS	intron	1650113	1651147	0.45	-	.	transcript_id "g3.t1"; gene_id "g3";
+utg000002l	AUGUSTUS	CDS	1645944	1646306	0.25	-	0	transcript_id "g3.t1"; gene_id "g3";
+utg000002l	AUGUSTUS	CDS	1649771	1650112	0.61	-	0	transcript_id "g3.t1"; gene_id "g3";
+# coding sequence = [gagcgctacgactttaccaacgatgtggagtcactggataacttttgcgcctctacgacgataactacggaagggccgc
+# tttcggttctggagtccgcgatggatcgatggagcaccgcctcgatcgcaggcaaaagagagttctcccactcaagccctatgtggatttccccgctg
+# gtttacgatctgctaaagcgcgatgctaaggcggcgagtccgagcaagtacgagggatattccggagaatctacaggagctgcatgccttgtcacagg
+# tttcgcggccagtactgtatactcatttaaaagcatgttggaccgcgatatccagcgcagtgacgtgcgaccatttttccgcctcatcgacaagggga
+# ggctcggaaccgaggaggaggctatatccggaaatggagctggctcacactttgatcccaatgaggatgctctggcagttgcccggaacacaagcggc
+# ctgtgttcgagttggaatggctgcgctacttggagaagccctgccactggtgtccaaagcggagagatcaaggcgagccagaagaagctttggtgcag
+# cagctctgaagaatccagcgggcgcaccaggtccgcccatcatctgtgcgcagcctacgccagcgcgttggccacgctattcgctggtgaatttcagc
+# tcttcgacaccgtcaacgcctgcaatgacatgtcctga]
+# protein sequence = [ERYDFTNDVESLDNFCASTTITTEGPLSVLESAMDRWSTASIAGKREFSHSSPMWISPLVYDLLKRDAKAASPSKYEG
+# YSGESTGAACLVTGFAASTVYSFKSMLDRDIQRSDVRPFFRLIDKGRLGTEEEAISGNGAGSHFDPNEDALAVARNTSGLCSSWNGCATWRSPATGVQ
+# SGEIKASQKKLWCSSSEESSGRTRSAHHLCAAYASALATLFAGEFQLFDTVNACNDMS]
+# end gene g3
+###
+# command line:
+# augustus --codingseq=1 --proteinprofile=/pub/jje/ee282/bin/busco/lineages/diptera_odb9/prfl/EOG0915004B.prfl --predictionStart=1633147 --predictionEnd=1651147 --species=BUSCO_unitigs_diptera_odb9_3925818918 ./tmp/utg000002lunitigs_diptera_odb9_3925818918_.temp

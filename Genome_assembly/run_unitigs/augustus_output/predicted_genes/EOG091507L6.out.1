@@ -1,0 +1,53 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /data/users/crwilcox/bin/augustus-3.2.1/config/ ...
+# Using protein profile unknown
+# --[0..0]--> unknown_A (6) <--[0..3]--> unknown_B (24) <--[0..2]--> unknown_C (45) <--[4..14]--> unknown_D (110) <--[0..2]--> unknown_E (31) <--[0..4]--> unknown_F (59) <--[0..8]--> unknown_G (9) <--[2..26]--> unknown_H (38) <--[13..24]--> unknown_I (43) <--[0..1]--> unknown_J (10) <--[4..18]--> unknown_K (8) <--[0..8]--> unknown_L (12) <--[0..474]--
+# BUSCO_unitigs_diptera_odb9_3925818918 version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(1), CTG(0), TTG(0)
+# Looks like ./tmp/utg000003lunitigs_diptera_odb9_3925818918_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 11863, name = utg000003l) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+utg000003l	AUGUSTUS	gene	509886	516677	0.03	+	.	g1
+utg000003l	AUGUSTUS	transcript	509886	516677	0.03	+	.	g1.t1
+utg000003l	AUGUSTUS	intron	509886	510930	0.26	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000003l	AUGUSTUS	intron	511475	511605	0.87	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000003l	AUGUSTUS	intron	511865	513106	0.7	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000003l	AUGUSTUS	intron	513285	516268	0.2	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000003l	AUGUSTUS	intron	516389	516543	0.21	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000003l	AUGUSTUS	CDS	510931	511474	0.44	+	2	transcript_id "g1.t1"; gene_id "g1";
+utg000003l	AUGUSTUS	CDS	511606	511864	0.7	+	1	transcript_id "g1.t1"; gene_id "g1";
+utg000003l	AUGUSTUS	CDS	513107	513284	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000003l	AUGUSTUS	CDS	516269	516388	0.28	+	2	transcript_id "g1.t1"; gene_id "g1";
+utg000003l	AUGUSTUS	CDS	516544	516677	0.19	+	2	transcript_id "g1.t1"; gene_id "g1";
+utg000003l	AUGUSTUS	stop_codon	516675	516677	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [aaagcgccgataacgcgcaatctcgtggtgagacgctcggcgcattgacaagcgaccaagatccggcggagcgcgatct
+# aaagattcattggggaacggcgacgacggcaagccgtcgcctatttcccagcccatgccgaagattgccgatttcccgaaggcaggatgcggcgactt
+# atcctgttcgattccacgcctatctggacaacatgaaaggcaccgtggtctctccggagctgcgaaccaagtactacgaacaggtcatcgcacatgtt
+# gagctccatcggcgttccatggagaaaccagttcgtcaagggcagcgactagccgtccaagcgagccaccctggatgctcagcccgtggtcacgcaac
+# acatgggcaaaggtgggcgcagaggtggtcaaacaggtggagtacccatcgctctcggcttgctttatcctggtctgcaggctcggacgaggagtacc
+# tcaaggtggacgcaatacccggtggcgtggatcagcgcaagatctttaccttctcagagaagcattcgccgcagactcaaagatcgatcttctcgact
+# ccccgggctaacgtgaagaagaagctgaagaaggctttctgtgagccgggaacattgcttacgtcgtggctgtcctctgtgaagcacgtccgttcgtt
+# gttcaaggcgaaggctttcgaggttaaccgcgaggcggagcatggcggcgagcaattcttgcaaaacacagaggatctggagaagtactacgcgagga
+# caaattgcacccgggtgaccctgaaggccaccggagaagcatttgggcgggaaaattcctgttgcggatcagaggacacggatcaaactcgactagtg
+# cccggtgccagtgaacgatcaggaggatctgctctggcaggcatagaattgacgagggacccggttttggcggtcaaatctgggaccctatgcagagt
+# caaagaacggaaatttacaggccaccaccaggactccactccacatcatggccggaccaaaggatccatccggaataaagatggctccaatcgcagcg
+# ccaaagcagatcagaaatttcagtggccaaaagttgtcggattgctcccggagcaggccgacgaggtggagttgatgcaggccgggcatcttcttcag
+# gggtgtcccagtccaggggacagcgcaccgcccccagtacggtgccaccaggaggatgaaggcgtacatgaagcatga]
+# protein sequence = [SADNAQSRGETLGALTSDQDPAERDLKIHWGTATTASRRLFPSPCRRLPISRRQDAATYPVRFHAYLDNMKGTVVSPE
+# LRTKYYEQVIAHVELHRRSMEKPVRQGQRLAVQASHPGCSARGHATHGQRWAQRWSNRWSTHRSRLALSWSAGSDEEYLKVDAIPGGVDQRKIFTFSE
+# KHSPQTQRSIFSTPRANVKKKLKKAFCEPGTLLTSWLSSVKHVRSLFKAKAFEVNREAEHGGEQFLQNTEDLEKYYARTNCTRVTLKATGEAFGRENS
+# CCGSEDTDQTRLVPGASERSGGSALAGIELTRDPVLAVKSGTLCRVKERKFTGHHQDSTPHHGRTKGSIRNKDGSNRSAKADQKFQWPKVVGLLPEQA
+# DEVELMQAGHLLQGCPSPGDSAPPPVRCHQEDEGVHEA]
+# end gene g1
+###
+# command line:
+# augustus --codingseq=1 --proteinprofile=/pub/jje/ee282/bin/busco/lineages/diptera_odb9/prfl/EOG091507L6.prfl --predictionStart=509886 --predictionEnd=521748 --species=BUSCO_unitigs_diptera_odb9_3925818918 ./tmp/utg000003lunitigs_diptera_odb9_3925818918_.temp

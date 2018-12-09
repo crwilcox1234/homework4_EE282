@@ -1,0 +1,33 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /data/users/crwilcox/bin/augustus-3.2.1/config/ ...
+# Using protein profile unknown
+# --[36..232]--> unknown_A (92) <--[25..162]--> unknown_B (91) <--[0..1]--> unknown_C (24) <--[3..15]--> unknown_D (17) <--[0..8]--
+# BUSCO_unitigs_diptera_odb9_3925818918 version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(1), CTG(0), TTG(0)
+# Looks like ./tmp/utg000026lunitigs_diptera_odb9_3925818918_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 10156, name = utg000026l) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+utg000026l	AUGUSTUS	gene	8810163	8811010	0.22	+	.	g1
+utg000026l	AUGUSTUS	transcript	8810163	8811010	0.22	+	.	g1.t1
+utg000026l	AUGUSTUS	intron	8810163	8810708	0.7	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000026l	AUGUSTUS	CDS	8810709	8811010	0.22	+	2	transcript_id "g1.t1"; gene_id "g1";
+utg000026l	AUGUSTUS	stop_codon	8811008	8811010	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [ctggcgatactcatgctatattccgagtggctgtcgagatagatatcccgatctggaccgataagcagagcgaacacaa
+# agacgcctattggggccaggccaccgtcaaggaagacgtactctccctgacgttccggcttggggtttttcctatcgaagttgctgtctggtggcaaa
+# agcaaagcacctacataggatgccttgccgctgaagacccaacgattctgtcccagaccctggtagtcactataggcgtagtacagagcagccgtgat
+# gtgggatcatgtagagcatgtagttag]
+# protein sequence = [GDTHAIFRVAVEIDIPIWTDKQSEHKDAYWGQATVKEDVLSLTFRLGVFPIEVAVWWQKQSTYIGCLAAEDPTILSQT
+# LVVTIGVVQSSRDVGSCRACS]
+# end gene g1
+###
+# command line:
+# augustus --codingseq=1 --proteinprofile=/pub/jje/ee282/bin/busco/lineages/diptera_odb9/prfl/EOG09150DA6.prfl --predictionStart=8810163 --predictionEnd=8820318 --species=BUSCO_unitigs_diptera_odb9_3925818918 ./tmp/utg000026lunitigs_diptera_odb9_3925818918_.temp

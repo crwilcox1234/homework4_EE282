@@ -1,0 +1,53 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /data/users/crwilcox/bin/augustus-3.2.1/config/ ...
+# Using protein profile unknown
+# --[0..5]--> unknown_A (30) <--[21..39]--> unknown_C (35) <--[0..1]--> unknown_D (81) <--[0..0]--
+# BUSCO_unitigs_diptera_odb9_3925818918 version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(1), CTG(0), TTG(0)
+# Looks like ./tmp/utg000002lunitigs_diptera_odb9_3925818918_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 10314, name = utg000002l) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+utg000002l	AUGUSTUS	gene	311543	318409	0.02	+	.	g1
+utg000002l	AUGUSTUS	transcript	311543	318409	0.02	+	.	g1.t1
+utg000002l	AUGUSTUS	start_codon	311543	311545	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	intron	311820	311973	0.15	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	intron	312253	312305	0.68	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	intron	312633	315443	0.27	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	intron	315499	318111	0.22	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	CDS	311543	311819	0.23	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	CDS	311974	312252	0.36	+	2	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	CDS	312306	312632	0.32	+	2	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	CDS	315444	315498	0.65	+	2	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	CDS	318112	318409	0.58	+	1	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	stop_codon	318407	318409	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [atgagcagcagaaggagaggagatgaagcgcgagacgcattcagggagcagctacgtcgcatcaagcgcaaccagggcg
+# cgaacgcctggcgcagctggcctttagaaccagaagcttcagccgcggtggcacccacttccttgggtgatcctaagagctcgggcgtcattcgcaca
+# aggagcgggatagcggctacaaaggaggtccggcccttcgcgcaaaagttcaagcttaagccagacctaaagctgaagtgcggcgcctgtggacaggt
+# tgtaacgctcagcagtaagattctcaaacgtcatggtggtgatgatggcaagcgtcaccacagcggatctagctctctggtttcacgaaggttccccg
+# agatgcgatgggcaagaagaaacgcagagtgggtggcgatcttcattgtgactatctgcagcgacacaataaaacggccaatcgcaggcgcacggacc
+# ccgttattggtacgcactgtcctctatcctggagattatccatatgagctgcgatctgtaccggatgtatcgccattccctgtttcccatggatctgc
+# aaacgatgagggtatattcgccaaggcgctacagtcgcgagagatgttcctcgaggatctcaagcagattgtggacaactcgctgatctacaatggac
+# cgcagagtgcatacaccttggctgcccagcgcatgttcagcagttgtttgaattactcgcaaatgagacaaacgtgcgcctcgaggaaggcaattaac
+# ccgctgctggacgacgatgaccaagtggcgctctcctttatctttgacaagctgcactcgcagattaagccaattaccagagagctggcctttcgcca
+# agcctgtcaacaagaaacagatgacatcgatgatgatctggatatttcggaagtgacgagaggcgatggttctcgtgctgagcttcgccatgatcgtc
+# tcctcggcgctgatgatctggaagggcctgatggtggtcaccggcagcgagtcgccgatgcgttgtcgtgctcagtggcaacatggagccagctttcc
+# accgcggcgacctcctcttcactaactacaaggaggagccggtgcgcgtcggcgagatcgtcgtcttcaaggtggaggcagggacatgcccattgtac
+# accgcgtcgactgctgaagagtgagttttcctgggagctacgatatggaaaccaatcccagaaagcgtctttaagatga]
+# protein sequence = [MSSRRRGDEARDAFREQLRRIKRNQGANAWRSWPLEPEASAAVAPTSLGDPKSSGVIRTRSGIAATKEVRPFAQKFKL
+# KPDLKLKCGACGQVVTLSSKILKRHGGDDGKRHHSGSSSLVSRRFPEMRWARRNAEWVAIFIVTICSDTIKRPIAGARTPLLVRTVLYPGDYPYELRS
+# VPDVSPFPVSHGSANDEGIFAKALQSREMFLEDLKQIVDNSLIYNGPQSAYTLAAQRMFSSCLNYSQMRQTCASRKAINPLLDDDDQVALSFIFDKLH
+# SQIKPITRELAFRQACQQETDDIDDDLDISEVTRGDGSRAELRHDRLLGADDLEGPDGGHRQRVADALSCSVATWSQLSTAATSSSLTTRRSRCASAR
+# SSSSRWRQGHAHCTPRRLLKSEFSWELRYGNQSQKASLR]
+# end gene g1
+###
+# command line:
+# augustus --codingseq=1 --proteinprofile=/pub/jje/ee282/bin/busco/lineages/diptera_odb9/prfl/EOG09150CS8.prfl --predictionStart=311470 --predictionEnd=321783 --species=BUSCO_unitigs_diptera_odb9_3925818918 ./tmp/utg000002lunitigs_diptera_odb9_3925818918_.temp

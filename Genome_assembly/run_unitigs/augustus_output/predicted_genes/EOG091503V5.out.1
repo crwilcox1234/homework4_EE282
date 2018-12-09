@@ -1,0 +1,73 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /data/users/crwilcox/bin/augustus-3.2.1/config/ ...
+# Using protein profile unknown
+# --[10..504]--> unknown_A (31) <--[6..29]--> unknown_C (53) <--[0..1]--> unknown_D (72) <--[0..1]--> unknown_E (77) <--[0..2]--> unknown_F (42) <--[0..8]--> unknown_G (9) <--[0..1]--> unknown_H (17) <--[50..217]--> unknown_J (39) <--[0..2]--> unknown_K (17) <--[0..1]--> unknown_L (47) <--[0..1]--> unknown_M (47) <--[1..2]--> unknown_N (12) <--[0..23]--> unknown_O (30) <--[5..12]--> unknown_P (22) <--[28..46]--> unknown_Q (24) <--[7..19]--> unknown_R (22) <--[0..217]--
+# BUSCO_unitigs_diptera_odb9_3925818918 version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(1), CTG(0), TTG(0)
+# Looks like ./tmp/utg000026lunitigs_diptera_odb9_3925818918_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 11880, name = utg000026l) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+utg000026l	AUGUSTUS	gene	11591456	11595793	0.02	-	.	g1
+utg000026l	AUGUSTUS	transcript	11591456	11595793	0.02	-	.	g1.t1
+utg000026l	AUGUSTUS	stop_codon	11591456	11591458	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+utg000026l	AUGUSTUS	intron	11591673	11593382	0.23	-	.	transcript_id "g1.t1"; gene_id "g1";
+utg000026l	AUGUSTUS	intron	11593433	11593507	0.25	-	.	transcript_id "g1.t1"; gene_id "g1";
+utg000026l	AUGUSTUS	intron	11593696	11594068	0.29	-	.	transcript_id "g1.t1"; gene_id "g1";
+utg000026l	AUGUSTUS	intron	11594262	11594849	0.15	-	.	transcript_id "g1.t1"; gene_id "g1";
+utg000026l	AUGUSTUS	intron	11595165	11595676	0.25	-	.	transcript_id "g1.t1"; gene_id "g1";
+utg000026l	AUGUSTUS	CDS	11591456	11591672	0.34	-	1	transcript_id "g1.t1"; gene_id "g1";
+utg000026l	AUGUSTUS	CDS	11593383	11593432	0.28	-	0	transcript_id "g1.t1"; gene_id "g1";
+utg000026l	AUGUSTUS	CDS	11593508	11593695	0.2	-	2	transcript_id "g1.t1"; gene_id "g1";
+utg000026l	AUGUSTUS	CDS	11594069	11594261	0.23	-	0	transcript_id "g1.t1"; gene_id "g1";
+utg000026l	AUGUSTUS	CDS	11594850	11595164	0.11	-	0	transcript_id "g1.t1"; gene_id "g1";
+utg000026l	AUGUSTUS	CDS	11595677	11595793	0.17	-	0	transcript_id "g1.t1"; gene_id "g1";
+utg000026l	AUGUSTUS	start_codon	11595791	11595793	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [atggggacaaagataagacggaatccagcagcgaagtcaaaccagaagacaccgatagtgataataaccgtcacaagca
+# caagcaaagatgacgtgataaacgaggagtcagtagaccggcgccgcgcggcaagaactccggtgttcttcgggcctggtgcccacgcagatgaagct
+# cgagcagtcggaaggtatttcatagccaagagcctgggcgccgaagtgaagcccaatattgacaaggagataacgcatctagtggtggtcaacgcagg
+# cacctacaaggttaacgccaaaaagagcccgccagcggtcaccgcgaattggtgccagaaccagcggccgagcgctgggagcacggaggagaagcctt
+# ttccactggaccgcaaggtacgcgcaacaagggtcgccagccacccgcccattgccatacgagaaggaaccggaggacgaggacggcgaatggaacat
+# gataagccgcctagaaaggagtcttcggcctggaggactttgacatgtagaaatttgcagcatccagtgaacaccagacaggccatgagaccccgcgt
+# tggagcaagcatcctgcatcctgctggccagacactcaagacatatttgatcttcgctggaagttttactcgctacgtttcagttgcgggctcgttgc
+# tcctgaagcggctaacccgcttcatgcgcatgcgagtcgatttaacccgcctggtggcagaggctccggcgcagtcggctcccttctccacaagatca
+# tgcacgaccttttggtggcgctcatgcgtcgcgcaggtcatcgcccaggtccagcagatttgttctgtaggatcgatttggtcgctgattcagggtca
+# actcttggccttgtgggaggagcaggtgagaagtagccctcgtaatgacccaccagaagcccgttggtgtgatcagcctgccgggcatcatgcctttc
+# cgtccaatgggcaccataacctccacgctgagattttgcgaacttgtccgttccggatggtgctctcattatcgcgcttgaaggcttcccagcgctct
+# gtctcgctggcgttcgtttga]
+# protein sequence = [MGTKIRRNPAAKSNQKTPIVIITVTSTSKDDVINEESVDRRRAARTPVFFGPGAHADEARAVGRYFIAKSLGAEVKPN
+# IDKEITHLVVVNAGTYKVNAKKSPPAVTANWCQNQRPSAGSTEEKPFPLDRKVRATRVASHPPIAIREGTGGRGRRMEHDKPPRKESSAWRTLTCRNL
+# QHPVNTRQAMRPRVGASILHPAGQTLKTYLIFAGSFTRYVSVAGSLLLKRLTRFMRMRVDLTRLVAEAPAQSAPFSTRSCTTFWWRSCVAQVIAQVQQ
+# ICSVGSIWSLIQGQLLALWEEQVRSSPRNDPPEARWCDQPAGHHAFPSNGHHNLHAEILRTCPFRMVLSLSRLKASQRSVSLAFV]
+# end gene g1
+###
+# start gene g2
+utg000026l	AUGUSTUS	gene	11596231	11596996	0.04	-	.	g2
+utg000026l	AUGUSTUS	transcript	11596231	11596996	0.04	-	.	g2.t1
+utg000026l	AUGUSTUS	stop_codon	11596231	11596233	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+utg000026l	AUGUSTUS	intron	11596499	11596643	0.2	-	.	transcript_id "g2.t1"; gene_id "g2";
+utg000026l	AUGUSTUS	CDS	11596231	11596498	0.06	-	1	transcript_id "g2.t1"; gene_id "g2";
+utg000026l	AUGUSTUS	CDS	11596644	11596996	0.24	-	0	transcript_id "g2.t1"; gene_id "g2";
+utg000026l	AUGUSTUS	start_codon	11596994	11596996	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# coding sequence = [atggcgggttcgcgagggacaattcgtgtcggcggcccaaattttggtttctttaccagcccgtgggcgtggacgcgaa
+# ggacgcgaaggacgtgtggaaagccggcgggactgtgccatccagaggccaagtcccagcgcgccggagtggtgagcgccgcctctaaggaagggagc
+# ttctacgaaggtgagtttgggggttgcaccggcggcgattgggcgtgggggaatgcaattatgcagccgtatacacaccaaccgagcctgttctttag
+# ggatgccattcccgagctgtccggagtggctacacaccacggtcatcaaggacatgcgcgactgcggagccgacttgcccgggcctgcagctcgggca
+# cgacgacacccgccgcctgctggcggatagaagctggtcctgcttgtcgatctcgatcagacggtgatccacaccaccaaccaacactgtacggacaa
+# catcaagggcatctaccacccagctgtacggcccacattccctcgtggcatcattatcgcgctcgcgccctggcaccgccgagttttctggagcgtat
+# gtcccagctgtacgaactgcacatttgtactttgcgcaccatgcgcacatga]
+# protein sequence = [MAGSRGTIRVGGPNFGFFTSPWAWTRRTRRTCGKPAGLCHPEAKSQRAGVVSAASKEGSFYEGEFGGCTGGDWAWGNA
+# IMQPYTHQPSLFFRDAIPELSGVATHHGHQGHARLRSRLARACSSGTTTPAACWRIEAGPACRSRSDGDPHHQPTLYGQHQGHLPPSCTAHIPSWHHY
+# RARALAPPSFLERMSQLYELHICTLRTMRT]
+# end gene g2
+###
+# command line:
+# augustus --codingseq=1 --proteinprofile=/pub/jje/ee282/bin/busco/lineages/diptera_odb9/prfl/EOG091503V5.prfl --predictionStart=11589691 --predictionEnd=11601570 --species=BUSCO_unitigs_diptera_odb9_3925818918 ./tmp/utg000026lunitigs_diptera_odb9_3925818918_.temp

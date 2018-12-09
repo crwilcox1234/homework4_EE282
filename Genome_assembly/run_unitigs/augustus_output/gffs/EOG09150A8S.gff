@@ -1,0 +1,12 @@
+utg000008l	AUGUSTUS	gene	1168300	1175498	0.01	+	.	g1
+utg000008l	AUGUSTUS	transcript	1168300	1175498	0.01	+	.	g1.t1
+utg000008l	AUGUSTUS	exon	1168300	1168803	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	start_codon	1168631	1168633	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	intron	1168804	1170021	0.18	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	intron	1170212	1170273	0.82	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	intron	1170528	1175498	0.27	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	CDS	1168631	1168803	0.13	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	CDS	1170022	1170211	0.23	+	1	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	exon	1170022	1170211	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	CDS	1170274	1170527	0.35	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	exon	1170274	1170527	.	+	.	transcript_id "g1.t1"; gene_id "g1";

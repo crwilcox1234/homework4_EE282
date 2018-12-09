@@ -1,0 +1,30 @@
+utg000008l	AUGUSTUS	gene	2004727	2012087	0.03	+	.	g1
+utg000008l	AUGUSTUS	transcript	2004727	2012087	0.03	+	.	g1.t1
+utg000008l	AUGUSTUS	tss	2004727	2004727	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	exon	2004727	2004814	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	exon	2008718	2008868	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	start_codon	2008779	2008781	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	intron	2008869	2008925	0.96	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	intron	2009209	2009458	0.33	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	intron	2009544	2009597	0.84	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	intron	2009815	2009882	0.83	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	intron	2010086	2010141	0.83	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	intron	2010790	2011740	0.41	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	intron	2011816	2011888	0.41	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	CDS	2008779	2008868	0.35	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	CDS	2008926	2009208	0.53	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	exon	2008926	2009208	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	CDS	2009459	2009543	0.33	+	2	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	exon	2009459	2009543	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	CDS	2009598	2009814	0.98	+	1	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	exon	2009598	2009814	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	CDS	2009883	2010085	0.83	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	exon	2009883	2010085	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	CDS	2010142	2010789	0.38	+	1	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	exon	2010142	2010789	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	CDS	2011741	2011815	0.41	+	1	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	exon	2011741	2011815	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	CDS	2011889	2012051	0.27	+	1	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	exon	2011889	2012087	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	stop_codon	2012049	2012051	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000008l	AUGUSTUS	tts	2012087	2012087	.	+	.	transcript_id "g1.t1"; gene_id "g1";

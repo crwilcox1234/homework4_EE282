@@ -1,0 +1,16 @@
+utg000026l	AUGUSTUS	gene	8521872	8528247	0.06	-	.	g2
+utg000026l	AUGUSTUS	transcript	8521872	8528247	0.06	-	.	g2.t1
+utg000026l	AUGUSTUS	tts	8521872	8521872	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+utg000026l	AUGUSTUS	exon	8521872	8523691	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+utg000026l	AUGUSTUS	stop_codon	8523510	8523512	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+utg000026l	AUGUSTUS	intron	8523692	8523835	0.93	-	.	transcript_id "g2.t1"; gene_id "g2";
+utg000026l	AUGUSTUS	intron	8524009	8527012	0.92	-	.	transcript_id "g2.t1"; gene_id "g2";
+utg000026l	AUGUSTUS	intron	8527308	8527384	0.8	-	.	transcript_id "g2.t1"; gene_id "g2";
+utg000026l	AUGUSTUS	CDS	8523510	8523691	1	-	2	transcript_id "g2.t1"; gene_id "g2";
+utg000026l	AUGUSTUS	CDS	8523836	8524008	0.92	-	1	transcript_id "g2.t1"; gene_id "g2";
+utg000026l	AUGUSTUS	exon	8523836	8524008	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+utg000026l	AUGUSTUS	CDS	8527013	8527307	0.74	-	2	transcript_id "g2.t1"; gene_id "g2";
+utg000026l	AUGUSTUS	exon	8527013	8527307	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+utg000026l	AUGUSTUS	CDS	8527385	8527469	0.8	-	0	transcript_id "g2.t1"; gene_id "g2";
+utg000026l	AUGUSTUS	exon	8527385	8528247	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+utg000026l	AUGUSTUS	start_codon	8527467	8527469	.	-	0	transcript_id "g2.t1"; gene_id "g2";

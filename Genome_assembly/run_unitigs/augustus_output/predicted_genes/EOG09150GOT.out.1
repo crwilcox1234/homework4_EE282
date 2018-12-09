@@ -1,0 +1,51 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /data/users/crwilcox/bin/augustus-3.2.1/config/ ...
+# Using protein profile unknown
+# --[9..290]--> unknown_A (23) <--[23..54]--> unknown_D (41) <--[9..15]--> unknown_E (40) <--[14..26]--> unknown_F (23) <--[5..17]--> unknown_G (58) <--[18..53]--> unknown_H (25) <--[11..159]--
+# BUSCO_unitigs_diptera_odb9_3925818918 version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(1), CTG(0), TTG(0)
+# Looks like ./tmp/utg000002lunitigs_diptera_odb9_3925818918_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 10451, name = utg000002l) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+utg000002l	AUGUSTUS	gene	11950605	11957873	0.04	+	.	g1
+utg000002l	AUGUSTUS	transcript	11950605	11957873	0.04	+	.	g1.t1
+utg000002l	AUGUSTUS	intron	11950605	11951965	0.88	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	intron	11952295	11952741	0.42	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	intron	11952978	11957186	0.08	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	intron	11957422	11957471	0.15	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	CDS	11951966	11952294	0.62	+	2	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	CDS	11952742	11952977	0.16	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	CDS	11957187	11957421	0.15	+	1	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	CDS	11957472	11957873	0.23	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	stop_codon	11957871	11957873	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [ttcaggccaacgaggacatttccgtgcagccggtgacaacatctgccaggcgatgcctgtgcctcagcacccaggatgt
+# ggatcatcggacgcacttcaacctggactgctcggtgagaatttccgagcacatcctggcccgctggccggagcagtttggcaaccgggcgattgcgt
+# ccggagctgcatcggagattgtcgtctcgtactttccgggcaataggatcaagttgctccagcagctacccgtacaaatgccaacaactctctcctgc
+# cgccactgtggcctacaggatctgcaggctccgctgttcatggacgtgcccaatgagaatagcctgcggggagcttggtttcctgaagcgactgaata
+# taaagtagcatgccctcctgcgaagagtcgcggagaagggtgctctgaacttacacctgccttggagcacctagattgctctaggaactcagctggag
+# cgcttggagttggccgatctgagcggtcgaaatttgtccttgtggacttgtcctggaatgcactgaagctactcccagtttatcaatgccaccgctgc
+# agcaacgacggtctggactttcgttgccggagaacgatgttccgccgcccatccgacgatctcacgcttcccgtggtctgcagtacaagcccaaaggc
+# tccgccaagcccgaaaccgctaaggaagacgatgagatggaaagaagaggacgagccaaaaatttcgatcagccagggctggtacatctacgacatgg
+# gcctttacacaggactttttttaaacaaacagcgcgcggcagcacacgcgtgtatatctgcaggtcccggcgaggatgagaaccggaatcaagagctg
+# tccgttaccgaactgcgccaaagagagaaggaactggctgatacagccgtggaacgagagttgaggcttctggaagcgctgaggagcgaagcgcaacg
+# aggggcgtcagcgctggggcatgggcgacgcggcggctttgatgaggaacggatctcagtcacaatccctacgccggcaccaacaacgaggctcttct
+# tcgatgacccaaaacgttgcgcggttttccggcgagagggtctaaatctagagtacaagtgcgacgaattgtcccaccggttcctttgtttgccattg
+# tggagcttccgctcgacgattccaatggcaggccaatgttgttga]
+# protein sequence = [QANEDISVQPVTTSARRCLCLSTQDVDHRTHFNLDCSVRISEHILARWPEQFGNRAIASGAASEIVVSYFPGNRIKLL
+# QQLPVQMPTTLSCRHCGLQDLQAPLFMDVPNENSLRGAWFPEATEYKVACPPAKSRGEGCSELTPALEHLDCSRNSAGALGVGRSERSKFVLVDLSWN
+# ALKLLPVYQCHRCSNDGLDFRCRRTMFRRPSDDLTLPVVCSTSPKAPPSPKPLRKTMRWKEEDEPKISISQGWYIYDMGLYTGLFLNKQRAAAHACIS
+# AGPGEDENRNQELSVTELRQREKELADTAVERELRLLEALRSEAQRGASALGHGRRGGFDEERISVTIPTPAPTTRLFFDDPKRCAVFRREGLNLEYK
+# CDELSHRFLCLPLWSFRSTIPMAGQCC]
+# end gene g1
+###
+# command line:
+# augustus --codingseq=1 --proteinprofile=/pub/jje/ee282/bin/busco/lineages/diptera_odb9/prfl/EOG09150GOT.prfl --predictionStart=11950605 --predictionEnd=11961055 --species=BUSCO_unitigs_diptera_odb9_3925818918 ./tmp/utg000002lunitigs_diptera_odb9_3925818918_.temp

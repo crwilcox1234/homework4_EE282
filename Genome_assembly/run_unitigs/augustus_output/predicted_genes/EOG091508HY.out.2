@@ -1,0 +1,55 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /data/users/crwilcox/bin/augustus-3.2.1/config/ ...
+# Using protein profile unknown
+# --[0..243]--> unknown_A (29) <--[3..9]--> unknown_B (20) <--[0..1]--> unknown_C (10) <--[0..1]--> unknown_D (17) <--[4..11]--> unknown_E (49) <--[0..1]--> unknown_F (28) <--[0..2]--> unknown_G (37) <--[0..7]--
+# fly version. Using default transition matrix.
+# Looks like ./tmp/utg000002lunitigs_diptera_odb9_3925818918_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 10267, name = utg000002l) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+utg000002l	AUGUSTUS	gene	12919122	12922941	0.01	+	.	g1
+utg000002l	AUGUSTUS	transcript	12919122	12922941	0.01	+	.	g1.t1
+utg000002l	AUGUSTUS	tss	12919122	12919122	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	exon	12919122	12919475	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	exon	12920337	12920419	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	start_codon	12920386	12920388	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	intron	12920420	12920496	0.53	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	intron	12920643	12921647	0.57	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	intron	12921745	12922148	0.58	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	intron	12922321	12922388	0.32	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	intron	12922459	12922680	0.8	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	CDS	12920386	12920419	0.53	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	CDS	12920497	12920642	0.53	+	2	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	exon	12920497	12920642	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	CDS	12921648	12921744	0.62	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	exon	12921648	12921744	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	CDS	12922149	12922320	0.41	+	2	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	exon	12922149	12922320	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	CDS	12922389	12922458	0.32	+	1	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	exon	12922389	12922458	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	CDS	12922681	12922782	0.8	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	exon	12922681	12922941	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	stop_codon	12922780	12922782	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000002l	AUGUSTUS	tts	12922941	12922941	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [atgaggagcaaccactccatttggaccaacgacgcttcacatttgcacgatcgacgaccgggtcgccagttgatcgagg
+# atctcgccgagagccagagctcggccagcagtgtcagcagcggcaaagtagtcagtccggctccgcctacgaggatgacgacgacgacgtcgagggtt
+# ccaaagaaaccgcccactaccacgacgaccaccacgacggaggtgcctctggagccggagggtctggacgagatcggcaacaacattgtgaccctgat
+# gaattcctcccgcattggattctacaatgacattgccatccttgttttggataagcccgtgaggaaatcaaagtatgtaactctatctgcccgccaaa
+# ggaatcaggatgccgcccaaggaacggcttccggacgtagagccaccgttgtattggggcaccacctactacggtgttacttccagcctatcaacgag
+# aacttcatctgcgcaggatactccgatggcggagtggatgcttgtcaggtgtctactgagtcactgaataccttgactggatacgcgatcacacgagg
+# attaatcgcattcccgttccaccgatccaccttagcagtaactatagcctag]
+# protein sequence = [MRSNHSIWTNDASHLHDRRPGRQLIEDLAESQSSASSVSSGKVVSPAPPTRMTTTTSRVPKKPPTTTTTTTTEVPLEP
+# EGLDEIGNNIVTLMNSSRIGFYNDIAILVLDKPVRKSKYVTLSARQRNQDAAQGTASGRRATVVLGHHLLRCYFQPINENFICAGYSDGGVDACQVST
+# ESLNTLTGYAITRGLIAFPFHRSTLAVTIA]
+# end gene g1
+###
+# command line:
+# augustus --codingseq=1 --proteinprofile=/pub/jje/ee282/bin/busco/lineages/diptera_odb9/prfl/EOG091508HY.prfl --predictionStart=12917357 --predictionEnd=12927623 --species=fly ./tmp/utg000002lunitigs_diptera_odb9_3925818918_.temp

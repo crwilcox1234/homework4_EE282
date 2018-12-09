@@ -1,0 +1,39 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /data/users/crwilcox/bin/augustus-3.2.1/config/ ...
+# Using protein profile unknown
+# --[0..143]--> unknown_A (76) <--[0..1]--> unknown_B (92) <--[6..30]--> unknown_C (11) <--[0..9]--> unknown_D (25) <--[1..4]--> unknown_E (68) <--[0..8]--> unknown_F (21) <--[2..49]--> unknown_G (38) <--[0..1]--> unknown_H (42) <--[2..14]--> unknown_I (10) <--[2..4]--> unknown_J (52) <--[19..302]--
+# BUSCO_unitigs_diptera_odb9_3925818918 version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(1), CTG(0), TTG(0)
+# Looks like ./tmp/utg000019lunitigs_diptera_odb9_3925818918_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 12082, name = utg000019l) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+utg000019l	AUGUSTUS	gene	1505468	1506429	0.04	+	.	g1
+utg000019l	AUGUSTUS	transcript	1505468	1506429	0.04	+	.	g1.t1
+utg000019l	AUGUSTUS	start_codon	1505468	1505470	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000019l	AUGUSTUS	intron	1505687	1506042	0.13	+	.	transcript_id "g1.t1"; gene_id "g1";
+utg000019l	AUGUSTUS	CDS	1505468	1505686	0.28	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000019l	AUGUSTUS	CDS	1506043	1506429	0.11	+	0	transcript_id "g1.t1"; gene_id "g1";
+utg000019l	AUGUSTUS	stop_codon	1506427	1506429	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [atggataccacgaaagctagcgcaaacgtaggcagtcaacaagaaaataaacactggaaaccagcgagacgacctgagg
+# ccgctggaactggaacagcactgctcaacagccgcagccgcgtggtgaccacgcctaatgtcaaatgtgaagcgaatgccatcagcggtagcacggta
+# gcggatgaacccatccagcaccactgccccttggcccggccctcgccaggagagaaagatggcgggtgttccgataatctgctgcagctggaccacca
+# gcattgtccggttccaccgctttactggacggacaccagcattggcgacgacccggggtggtctttatcaccgaagtacatgtcgagcggatcgctga
+# aacagttcctcaagcgcgcaagcgcaacgccaagcggctaccgctggagtcgtagcgccggtggtgcgctcgaattttgtccgcactccggctggcgt
+# tcctgctcgcgcccatcatccacggcgaacaaccatgatagcatcttcatccagcagcagcacaggtcaagatcggctcggtggtcccggacgcggtc
+# cactacagcatccggcgcggccggcgggaggcaatga]
+# protein sequence = [MDTTKASANVGSQQENKHWKPARRPEAAGTGTALLNSRSRVVTTPNVKCEANAISGSTVADEPIQHHCPLARPSPGEK
+# DGGCSDNLLQLDHQHCPVPPLYWTDTSIGDDPGWSLSPKYMSSGSLKQFLKRASATPSGYRWSRSAGGALEFCPHSGWRSCSRPSSTANNHDSIFIQQ
+# QHRSRSARWSRTRSTTASGAAGGRQ]
+# end gene g1
+###
+# command line:
+# augustus --codingseq=1 --proteinprofile=/pub/jje/ee282/bin/busco/lineages/diptera_odb9/prfl/EOG091502A0.prfl --predictionStart=1500952 --predictionEnd=1513033 --species=BUSCO_unitigs_diptera_odb9_3925818918 ./tmp/utg000019lunitigs_diptera_odb9_3925818918_.temp
