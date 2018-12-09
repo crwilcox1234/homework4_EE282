@@ -249,7 +249,7 @@ m <- ggarrange(a, b, c, d, e, f, g, h, i, k, l,
 ggexport(m)
 
 ```
-```
+
 Plots in PDF format
 --------------------
 
