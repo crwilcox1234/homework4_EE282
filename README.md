@@ -1,10 +1,10 @@
-Alt-Homework 4 answers
+Homework 4 answers
 ======================
 
-Alt-Part1 : Summarize partitions of a genome assembly
+Part1 : Summarize partitions of a genome assembly
 -----------------------------------------------------
 
-Alt-Answers and code for this section will be in the Partitions_genome_assembly directory
+Answers and code for this section will be in the Partitions_genome_assembly directory
 -----------------------------------------------------------------------------------------
 
 For this section the Drosophila melanogaster genome was used: dmel-all-chromosome-r6.24.fasta
@@ -57,7 +57,7 @@ faSize dmel-all-chr-less_eq_100kb.fasta
 3. Total number of sequences: 1863 sequences
 
 
-Alt-Plots of the following for the whole genome, for all sequences <= 100kb, and all sequences > 100kb:
+Plots of the following for the whole genome, for all sequences <= 100kb, and all sequences > 100kb:
 ---------------------------------------------------------------------------------------------------------
 
 1. Sequence length distribution
@@ -97,7 +97,7 @@ Alt-PLOTS
 R code for plots. This code includes the code for the 9 plots. The plots for each question have the same scale, except for 3 additional plots
 (for a total of 12 plots) in the >100kb section.  Since there are only 7 sequences over 100kb, the scale of the extra 3 plots was reduced.
 
-'''' R
+''''
 
 #install.packages("ggplot2")
 library(ggplot2)
