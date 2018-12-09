@@ -11,21 +11,21 @@ For this section the Drosophila melanogaster genome was used: dmel-all-chromosom
 
 bioawk was used to partition the genome into over 100kb and under 100kb:
 
-'''bash
+```bash
 
 bioawk -c fastx 'length($seq) > 100000{ print ">"$name; print $seq }'  dmel-all-chromosome-r6.24.fasta > dmel-all-chr-over100kb.fasta
 
 bioawk -c fastx 'length($seq) <= 100000{ print ">"$name; print $seq }'  dmel-all-chromosome-r6.24.fasta > dmel-all-chr-less_eq_100kb.fasta
 
-'''''
+```
 
 ##Calculate the following for Whole genome
 
-'''bash
+```bash
 
 faSize dmel-all-chromosome-r6.24.fasta
 
-'''
+```
 
 1. Total number of nucleotides: 143726002 bases
 2. Total number of Ns: 1152978 N's
@@ -33,11 +33,11 @@ faSize dmel-all-chromosome-r6.24.fasta
 
 ##Calculate the following for >100kb:
 
-'''bash
+```bash
 
 faSize dmel-all-chr-over100kb.fasta
 
-'''
+```
 
 1. Total number of nucleotides: 137547960  bases
 2. Total number of Ns: 490385  N's
@@ -46,11 +46,11 @@ faSize dmel-all-chr-over100kb.fasta
 
 ##Calculate the following for <= 100kb:
 
-'''bash
+```bash
 
 faSize dmel-all-chr-less_eq_100kb.fasta
 
-'''
+```
 
 1. Total number of nucleotides: 6178042  bases
 2. Total number of Ns: 662593  N's
@@ -67,11 +67,11 @@ Plots of the following for the whole genome, for all sequences <= 100kb, and all
 The same code was used for whole genome, >100kb, and <=100kb, changing the input file to the files containing reads from 
 the whole genome, >100kb, and <=100kb
 
-'''bash
+```bash
 
 bioawk -c fastx '{ print $name, length($seq) }' dmel-all-chromosome-r6.24.fasta > Sequence_length.txt
 
-'''
+```
 
 2. Sequence GC% distribution
 
@@ -80,11 +80,11 @@ bioawk -c fastx '{ print $name, length($seq) }' dmel-all-chromosome-r6.24.fasta 
 The same code was used for whole genome, >100kb, and <=100kb, changing the input file to the files containing reads from
 the whole genome, >100kb, and <=100kb
 
-'''python
+```bash
 
 bioawk -c fastx '{ print $name, gc($seq) }' dmel-all-chromosome-r6.24.fasta > GC_content.txt
 
-'''
+```
 
 3.  Cumulative genome size sorted from largest to smallest sequences
 
@@ -97,7 +97,7 @@ Alt-PLOTS
 R code for plots. This code includes the code for the 9 plots. The plots for each question have the same scale, except for 3 additional plots
 (for a total of 12 plots) in the >100kb section.  Since there are only 7 sequences over 100kb, the scale of the extra 3 plots was reduced.
 
-'''
+```
 
 #install.packages("ggplot2")
 library(ggplot2)
@@ -248,7 +248,7 @@ m <- ggarrange(a, b, c, d, e, f, g, h, i, k, l,
 
 ggexport(m)
 
-'''
+```
 
 Plots in PDF format
 -----------------------
