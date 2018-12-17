@@ -257,6 +257,10 @@ To make the plots ggplot2 was used using the geom_histogram function, the geom_p
 
 All plots are in one pdf file: Plots_over_under_whole.pdf
 
+### Comments on "Summarize partitions of a genome assembly"
+
+Excellent. There were some issues with getting the range right in some of the ggplots. But I could see the result in other rescaled plots, so no problem.
+
 Part 2: Genome assembly
 -----------------------
 
